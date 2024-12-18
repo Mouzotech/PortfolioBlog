@@ -39,25 +39,7 @@
 <div
   class="m-auto hidden !min-w-fit justify-center lg:col-span-5 lg:mt-0 lg:flex lg:flex-col"
 >
-  <div
-    class="animate relative h-fit w-fit animate-jump-in animate-duration-700 animate-ease-out"
-    style={desktopStyle}
-  >
-    <DeviceMockup device="desktop" class="">
-      <div class="flex h-full w-full items-center justify-center">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/ikAnAXf3gJo?autoplay=1&loop=1&mute=1&playlist=ikAnAXf3gJo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          class="w-[720px]"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </DeviceMockup>
-  </div>
+
 
   <div
     class="animate absolute mt-[1200px] hidden h-fit w-fit animate-fade-left animate-duration-1000 animate-ease-out xl:block"

@@ -20,9 +20,6 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.8.5(@types/node@20.12.12)(typescript@5.4.5))(tailwindcss@3.4.3)
-      '@notionhq/client':
-        specifier: ^2.2.15
-        version: 2.2.15
       '@types/react':
         specifier: ^18.3.2
         version: 18.3.2
@@ -35,12 +32,6 @@ importers:
       date-fns:
         specifier: ^3.6.0
         version: 3.6.0
-      dotenv:
-        specifier: ^16.4.5
-        version: 16.4.5
-      flowbite:
-        specifier: ^2.3.0
-        version: 2.3.0
       flowbite-svelte:
         specifier: ^0.44.24
         version: 0.44.24(svelte@4.2.17)
@@ -50,18 +41,12 @@ importers:
       flowbite-typography:
         specifier: ^1.0.3
         version: 1.0.3(tailwindcss@3.4.3)
-      image-type:
-        specifier: ^5.2.0
-        version: 5.2.0
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
       nanostores:
         specifier: ^0.10.3
         version: 0.10.3
-      notion-to-md:
-        specifier: ^3.1.1
-        version: 3.1.1
       prettier-plugin-svelte:
         specifier: ^3.2.3
         version: 3.2.3(prettier@3.2.5)(svelte@4.2.17)
@@ -77,40 +62,40 @@ importers:
       read-chunk:
         specifier: ^4.0.3
         version: 4.0.3
-      reading-time:
-        specifier: ^1.5.0
-        version: 1.5.0
       rehype-raw:
         specifier: ^7.0.0
         version: 7.0.0
       remark-gfm:
         specifier: ^4.0.0
         version: 4.0.0
-      rimraf:
-        specifier: ^5.0.7
-        version: 5.0.7
-      sharp:
-        specifier: ^0.33.4
-        version: 0.33.4
       svelte:
         specifier: ^4.2.17
         version: 4.2.17
-      tailwind-merge:
-        specifier: ^2.3.0
-        version: 2.3.0
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3
-      tinycolor2:
-        specifier: ^1.6.0
-        version: 1.6.0
     devDependencies:
+      '@notionhq/client':
+        specifier: ^2.2.15
+        version: 2.2.15
       '@tailwindcss/typography':
         specifier: ^0.5.13
         version: 0.5.13(tailwindcss@3.4.3)
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
+      flowbite:
+        specifier: ^2.3.0
+        version: 2.3.0
       flowbite-svelte-icons:
         specifier: ^1.6.1
         version: 1.6.1(svelte@4.2.17)(tailwind-merge@2.3.0)(tailwindcss@3.4.3)
+      image-type:
+        specifier: ^5.2.0
+        version: 5.2.0
+      notion-to-md:
+        specifier: ^3.1.1
+        version: 3.1.1
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -120,9 +105,24 @@ importers:
       prettier-plugin-tailwindcss:
         specifier: ^0.5.14
         version: 0.5.14(prettier-plugin-astro@0.13.0)(prettier-plugin-svelte@3.2.3(prettier@3.2.5)(svelte@4.2.17))(prettier@3.2.5)
+      reading-time:
+        specifier: ^1.5.0
+        version: 1.5.0
+      rimraf:
+        specifier: ^5.0.7
+        version: 5.0.7
+      sharp:
+        specifier: ^0.33.4
+        version: 0.33.4
+      tailwind-merge:
+        specifier: ^2.3.0
+        version: 2.3.0
       tailwindcss-animated:
         specifier: ^1.0.1
         version: 1.0.1(tailwindcss@3.4.3)
+      tinycolor2:
+        specifier: ^1.6.0
+        version: 1.6.0
 
 packages:
 
